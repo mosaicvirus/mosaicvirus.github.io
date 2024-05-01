@@ -1,8 +1,12 @@
 img, p, h1, h2, .divider {
     width: 100%;
-    max-width: 600px;
+    max-width: 800px;
     margin-left: auto;
     margin-right: auto;
+}
+
+body{
+    background-color: #F0EAD2;
 }
 
 img{
@@ -12,22 +16,24 @@ img{
 
 .wider{
     width: 100%;
-    max-width: 800px;
+    max-width: 1200px;
 }
 
 p {
     font-size: 18px;
     line-height: 1.4;
     font-family: "Crimson Text";
+    color:rgb(52, 39, 29);
 }
 
 h1, h2 {
     font-family: "Roboto";
+    color: rgb(52, 39, 29);
 }
 
 .divider{
     height: 2px;
-    background-color: #0868ac;
+    background-color: #414833;
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -35,8 +41,18 @@ h1, h2 {
 #newStyle {
     font-size: 18px;
     font-family: "Crimson Text";
-    color: rgb(145, 23, 98);
+    color: rgb(65, 72, 51);
     font-weight: lighter;
     margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+#caption {
+    font-size: 14px;
+    font-family: "Roboto";
+    color: rgba(102, 102, 102);
+    font-weight: regular;
+    font-style: italic;
+    margin-top: 0px;
     margin-bottom: 8px;
 }
